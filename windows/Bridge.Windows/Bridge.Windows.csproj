@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RuntimeFrameworkVersion>10.0.13</RuntimeFrameworkVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationDefaultFont>Microsoft YaHei UI, 9pt</ApplicationDefaultFont>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>../../resources/icons/AppIcon.ico</ApplicationIcon>
+    <AssemblyName>$(ProductName)</AssemblyName>
+
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Bridge.Core/Bridge.Core.csproj" /></ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../resources/icons/AppIcon.ico" LogicalName="AppIcon.ico" />
+    <None Include="../../resources/windows/*.txt" Link="%(Filename)%(Extension)" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+</Project>

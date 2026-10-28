@@ -1,0 +1,91 @@
+Remote VoiceIME 0.3.1（构建 11） native UI preview: 90 checks passed. No speech, keyboard injection or clipboard access.
+PASS: capsule is 600 logical px wide
+PASS: empty receiver shows the listening placeholder
+PASS: placeholder hides during IME composition, before any committed text
+PASS: placeholder returns when the composition ends without text
+PASS: short text stays one 56 px line without the placeholder
+PASS: capsule key chip ends listening
+PASS: long text grows the capsule upward to 8 lines
+PASS: receiver wraps inside the visible width (no horizontal scroll)
+PASS: text area stays inside the capsule and left of the key chip
+PASS: capsule shows exactly 8 whole lines with the newest text in view
+PASS: an open multi-line composition grows the capsule before any text is committed
+PASS: the capsule shrinks back when the composition is gone
+PASS: settling disables the chip
+PASS: pill and card share one IME receiver: same window handle, text and selection
+PASS: review card has no confirmation checkbox and no clickable send button
+PASS: review sends only by the global key: Return edits, the key cap is not clickable
+PASS: review shows the amber reason note
+PASS: review editor grows with long text up to its limit, shows whole lines and stays inside the card
+PASS: cancelling keeps the same receiver until Doubao stops
+PASS: cancelling offers an explicit close
+PASS: native window loads the product icon
+PASS: capsule is 600 logical px wide@125
+PASS: empty receiver shows the listening placeholder@125
+PASS: placeholder hides during IME composition, before any committed text@125
+PASS: placeholder returns when the composition ends without text@125
+PASS: short text stays one 56 px line without the placeholder@125
+PASS: capsule key chip ends listening@125
+PASS: long text grows the capsule upward to 8 lines@125
+PASS: receiver wraps inside the visible width (no horizontal scroll)@125
+PASS: text area stays inside the capsule and left of the key chip@125
+PASS: capsule shows exactly 8 whole lines with the newest text in view@125
+PASS: an open multi-line composition grows the capsule before any text is committed@125
+PASS: the capsule shrinks back when the composition is gone@125
+PASS: settling disables the chip@125
+PASS: pill and card share one IME receiver: same window handle, text and selection@125
+PASS: review card has no confirmation checkbox and no clickable send button@125
+PASS: review sends only by the global key: Return edits, the key cap is not clickable@125
+PASS: review shows the amber reason note@125
+PASS: review editor grows with long text up to its limit, shows whole lines and stays inside the card@125
+PASS: cancelling keeps the same receiver until Doubao stops@125
+PASS: cancelling offers an explicit close@125
+PASS: native window loads the product icon
+PASS: notice is 440 px wide and never activates@125
+PASS: “再贴一次” on the notice is clickable and runs once@125
+PASS: failed delivery offers re-delivery and review@125
+PASS: try-once fixes list one action per symptom@125
+PASS: capsule is 600 logical px wide@150
+PASS: empty receiver shows the listening placeholder@150
+PASS: placeholder hides during IME composition, before any committed text@150
+PASS: placeholder returns when the composition ends without text@150
+PASS: short text stays one 56 px line without the placeholder@150
+PASS: capsule key chip ends listening@150
+PASS: long text grows the capsule upward to 8 lines@150
+PASS: receiver wraps inside the visible width (no horizontal scroll)@150
+PASS: text area stays inside the capsule and left of the key chip@150
+PASS: capsule shows exactly 8 whole lines with the newest text in view@150
+PASS: an open multi-line composition grows the capsule before any text is committed@150
+PASS: the capsule shrinks back when the composition is gone@150
+PASS: settling disables the chip@150
+PASS: pill and card share one IME receiver: same window handle, text and selection@150
+PASS: review card has no confirmation checkbox and no clickable send button@150
+PASS: review sends only by the global key: Return edits, the key cap is not clickable@150
+PASS: review shows the amber reason note@150
+PASS: review editor grows with long text up to its limit, shows whole lines and stays inside the card@150
+PASS: cancelling keeps the same receiver until Doubao stops@150
+PASS: cancelling offers an explicit close@150
+PASS: native window loads the product icon
+PASS: notice is 440 px wide and never activates@150
+PASS: “再贴一次” on the notice is clickable and runs once@150
+PASS: failed delivery offers re-delivery and review@150
+PASS: try-once fixes list one action per symptom@150
+PASS: notice is 440 px wide and never activates
+PASS: “再贴一次” on the notice is clickable and runs once
+PASS: failed delivery offers re-delivery and review
+PASS: try-once fixes list one action per symptom
+PASS: checklist cannot start until required items are done
+PASS: setup-checklist contains native controls
+PASS: clipboard confirmation is reported by the checklist
+PASS: all required items enable 开始使用 without a test
+PASS: setup-ready contains native controls
+PASS: F8 needs no Doubao change and offers the shared key
+PASS: setup-f8 contains native controls
+PASS: settings-general contains native controls
+PASS: settings-remote contains native controls
+PASS: settings-diagnostics contains native controls
+PASS: remote page offers fast / standard / compatible
+PASS: general page offers the clipboard-after-delivery choice
+PASS: recent-text contains native controls
+PASS: hidden recovery discards expired text
+PASS: tray icon distinguishes ready / listening / delivering / attention / paused

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Bridge.Core/Bridge.Core.csproj" /></ItemGroup>
+  <!-- Only event construction, ABI layout and clipboard format policy run; no system input or clipboard access. -->
+  <ItemGroup>
+    <Compile Include="../Bridge.Windows/Native.cs" Link="Native.cs" />
+    <Compile Include="../Bridge.Windows/Keyboard.cs" Link="Keyboard.cs" />
+    <Compile Include="../Bridge.Windows/ClipboardBridge.cs" Link="ClipboardBridge.cs" />
+  </ItemGroup>
+</Project>

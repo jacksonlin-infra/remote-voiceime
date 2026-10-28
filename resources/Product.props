@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <ProductName>Remote VoiceIME</ProductName>
+    <Version>0.3.1</Version>
+    <ReleaseBuild>11</ReleaseBuild>
+    <!-- Stable compatibility identity: preserve existing macOS preferences and grants. -->
+    <MacBundleIdentifier>local.jackson.UURightOptionVoice</MacBundleIdentifier>
+    <Product>$(ProductName)</Product>
+    <AssemblyVersion>$(Version).$(ReleaseBuild)</AssemblyVersion>
+    <FileVersion>$(Version).$(ReleaseBuild)</FileVersion>
+    <InformationalVersion>$(Version)+build.$(ReleaseBuild)</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+</Project>
